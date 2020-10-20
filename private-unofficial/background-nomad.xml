@@ -5,7 +5,7 @@
        <name>Nomad</name>
        <description>5e homebrew</description>
        <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-       <update version="0.0.5">
+       <update version="0.0.6">
            <file name="background-nomad.xml" url="https://raw.githubusercontent.com/Zancuno/Private-Unofficial-Aurora-53-Homebrew/master/private-unofficial/background-nomad.xml?token=AKXIHGOF244SZWQVNUN3UL27R2754" />
        </update>
     </info>
@@ -34,19 +34,19 @@
                 <span class="emphasis">Languages:</span>One exotic language.<br />
                 <span class="emphasis">Equipment:</span>A bedroll, a set of traveler's clothes, a blanket, an ink pen and vial of ink, a journal of your previous travels, a trinket from your travels, and a belt pouch containing 5 gold.<br />
             </p>
-            <div element="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE" /> <!-- pulls description of feature -->
             <h5>SUGGESTED CHARACTERISTICS</h5>
             <p>What was it like living on the road? What was your caravan like? Do your people remember where they came from? How long have your people been on the road? How were you raised? Why did you leave the caravan? What do you think of other nomad cultures? What do you think of settled folk? How far have you traveled, and what strange sights have you seen? How did your people sustain themselves? Have you ever faced prejudice or ignorance? Have you ever been forced to do immoral or unethical things just to survive? Does your caravan still exist out there somewhere?</p>
-			<h4>VARIANT NOMAD : EXOTIC</h4>
-			<p>A nomad's life is full and rich with music and tales to mesmerize a crowd. You live for the refinement of a tale, the discovery of a new song, and the applause of the crowd; not to mention all the coin it can bring. Your attire, accent, and traditions stand out and are unique, carrying the air of the mysterious and novel wherever you go. You can easily draw the attention of a crowd, whether you want it or not.</p>
+			<h4>Nomad Variations</h4>
+			<div element="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE" />
+			<div element="ID_WIKI_BACKGROUND_FEATURE_EXOTICISM" />
         </description>
 
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
             <select type="Proficiency" name="Musical Intrument (Entertainer)" supports="Musical Instrument" />
-            <select type="Background Variant" name="Variant Nomad Familial" supports="Variant Nomad Familial" optional="false" />
-			<select type="Background Variant" name="Variant Nomad Exotic" supports="Variant Nomad Exotic" optional="false" />
+            <select type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE" />
+			<select type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_EXOTICISM />
 
             <select type="List" name="Personality Trait">
                 <item id="1">I quickly pick up on local accents and begin imitating them almost immediately.</item>
@@ -85,8 +85,8 @@
         </rules>
     </element>
 
-    <element name="Variant Nomad" type="Background Variant" source="Private Unofficial" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE">
-		<supports>Varient Nomad Familial</supports>
+    <element name="Variant Nomad" type="Background Feature" source="Private Unofficial" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE">
+		<supports>Background Feature</supports>
         <setters>
             <set name="sourceUrl">https://www.dandwiki.com/wiki/Nomad_(5e_Background)</set>
         </setters>
@@ -97,8 +97,8 @@
 			<description>Living on the road with a performing troupe leaves you with kin in many places, such as various camps, settlements, and travelling shows. All nomads stand in defense of their family, (however loosely defined that may be) and are known to each other through subtle caravan markings, hand signals, and traditional ceremonies. Every nomad family has their own unwritten code of loyalty. Any nomad found violating the tennets of the family will find themselves on the outside looking in; always wanting but never finding shelter or help. As it's said, 'Word travels quickly on roads but lingers in cities.' An ousted nomad never finds haven in or out of towns. Work with your DM to figure out where you have family, who they are, and what your family's values are.</description>
 		</sheet>
     </element>
-    <element name="Variant Nomad: Exotic" type="Background Variant" source="Private Unofficial" id="ID_WIKI_BACKGROUND_FEATURE_EXOTICISM">
-		<supports>Variant Nomad Exotic</supports>
+    <element name="Variant Nomad: Exotic" type="Background Feature" source="Private Unofficial" id="ID_WIKI_BACKGROUND_FEATURE_EXOTICISM">
+		<supports>Background Feature</supports>
         <setters>
             <set name="sourceUrl">https://www.dandwiki.com/wiki/Nomad_(5e_Background)</set>
         </setters>
