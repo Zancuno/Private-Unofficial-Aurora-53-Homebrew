@@ -5,7 +5,7 @@
        <name>Nomad</name>
        <description>5e homebrew</description>
        <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-       <update version="0.1.2">
+       <update version="0.1.3">
            <file name="background-nomad.xml" url="https://raw.githubusercontent.com/Zancuno/Private-Unofficial-Aurora-53-Homebrew/master/private-unofficial/background-nomad.xml?token=AKXIHGOF244SZWQVNUN3UL27R2754" />
        </update>
     </info>
@@ -45,7 +45,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
             <select type="Proficiency" name="Musical Intrument (Entertainer)" supports="Musical Instrument" />
-            <select type="Background Variant" name="Nomad Variants" supports="Nomad Variants" />
+            <select type="Background Feature" name="Nomad Variants" supports="Nomad Variants" />
 
 
             <select type="List" name="Personality Trait">
