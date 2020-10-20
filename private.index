@@ -3,7 +3,7 @@
 	<info>
 		<name>Private Unofficial</name>
 		<description>Private Unofficial Additions to Aurora from D&amp;D Wiki 5e Homebrew.</description>
-		<author url=http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
 		<update version="0.0.1">
 			<file name="private.index" url="https://raw.githubusercontent.com/Zancuno/Private-Unofficial-Aurora-53-Homebrew/master/private.index?token=AKXIHGMRYFNZT3FK4TI4RN27R273O" />
 		</update>
