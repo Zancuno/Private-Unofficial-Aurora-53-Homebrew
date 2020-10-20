@@ -5,7 +5,7 @@
        <name>Nomad</name>
        <description>5e homebrew</description>
        <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-       <update version="0.0.4">
+       <update version="0.0.5">
            <file name="background-nomad.xml" url="https://raw.githubusercontent.com/Zancuno/Private-Unofficial-Aurora-53-Homebrew/master/private-unofficial/background-nomad.xml?token=AKXIHGOF244SZWQVNUN3UL27R2754" />
        </update>
     </info>
@@ -45,8 +45,8 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
             <select type="Proficiency" name="Musical Intrument (Entertainer)" supports="Musical Instrument" />
-            <grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
-			<select type="Background Variant" name="Variant Nomad" supports="Variant Nomad" optional="true" />
+            <select type="Background Variant" name="Variant Nomad Familial" supports="Variant Nomad Familial" optional="false" />
+			<select type="Background Variant" name="Variant Nomad Exotic" supports="Variant Nomad Exotic" optional="false" />
 
             <select type="List" name="Personality Trait">
                 <item id="1">I quickly pick up on local accents and begin imitating them almost immediately.</item>
@@ -85,20 +85,20 @@
         </rules>
     </element>
 
-    <element name="Feature: Family Everywhere" type="Background Feature" source="Private Unofficial" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE">
-		<supports>Background Feature</supports>
+    <element name="Variant Nomad" type="Background Variant" source="Private Unofficial" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE">
+		<supports>Varient Nomad Familial</supports>
         <setters>
             <set name="sourceUrl">https://www.dandwiki.com/wiki/Nomad_(5e_Background)</set>
         </setters>
         <description>
             <p>Living on the road with a performing troupe leaves you with kin in many places, such as various camps, settlements, and travelling shows. All nomads stand in defense of their family, (however loosely defined that may be) and are known to each other through subtle caravan markings, hand signals, and traditional ceremonies. Every nomad family has their own unwritten code of loyalty. Any nomad found violating the tennets of the family will find themselves on the outside looking in; always wanting but never finding shelter or help. As it's said, 'Word travels quickly on roads but lingers in cities.' An ousted nomad never finds haven in or out of towns. Work with your DM to figure out where you have family, who they are, and what your family's values are.</p>
         </description>
-		<sheet alt="Family Everywhere">
+		<sheet alt="Familial Nomad">
 			<description>Living on the road with a performing troupe leaves you with kin in many places, such as various camps, settlements, and travelling shows. All nomads stand in defense of their family, (however loosely defined that may be) and are known to each other through subtle caravan markings, hand signals, and traditional ceremonies. Every nomad family has their own unwritten code of loyalty. Any nomad found violating the tennets of the family will find themselves on the outside looking in; always wanting but never finding shelter or help. As it's said, 'Word travels quickly on roads but lingers in cities.' An ousted nomad never finds haven in or out of towns. Work with your DM to figure out where you have family, who they are, and what your family's values are.</description>
 		</sheet>
     </element>
     <element name="Variant Nomad: Exotic" type="Background Variant" source="Private Unofficial" id="ID_WIKI_BACKGROUND_FEATURE_EXOTICISM">
-		<supports>Variant Nomad</supports>
+		<supports>Variant Nomad Exotic</supports>
         <setters>
             <set name="sourceUrl">https://www.dandwiki.com/wiki/Nomad_(5e_Background)</set>
         </setters>
