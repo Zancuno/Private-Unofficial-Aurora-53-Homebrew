@@ -5,7 +5,7 @@
        <name>Nomad</name>
        <description>5e homebrew</description>
        <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-       <update version="0.0.1">
+       <update version="0.0.2">
            <file name="background-nomad.xml" url="https://raw.githubusercontent.com/Zancuno/Private-Unofficial-Aurora-53-Homebrew/master/private-unofficial/background-nomad.xml?token=AKXIHGOF244SZWQVNUN3UL27R2754" />
        </update>
     </info>
@@ -44,13 +44,12 @@
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
-            <grant type="Proficiency" name="Musical Instrument (Nomad)" supports="Musical Instrument" />
-            <grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE" />
-			<grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_EXOTICISM" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+            <grant type="Proficiency" name="Musical Intrument (Entertainer)" supports="Musical Instrument" />
+            <grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 			<select type="Background Variant" name="Variant Nomad" supports="Variant Nomad" optional="true" />
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 
-            <select type="List" name="Personality Trait" number="2">
+            <select type="List" name="Personality Trait">
                 <item id="1">I quickly pick up on local accents and begin imitating them almost immediately.</item>
                 <item id="2">I don't take situations seriously and have no sense of responsibility.</item>
                 <item id="3">I spend a lot of my time practicing my instrument, dance, or tale-telling.</item>
