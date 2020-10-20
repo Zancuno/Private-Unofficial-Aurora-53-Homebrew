@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Private Unofficial</name>
+		<description>Private Unofficial Additions to Aurora from D&amp;D Wiki 5e Homebrew.</description>
+		<author url=http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="private.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="background-nomad.xml" url="" />
+	</files>
+</index>
