@@ -5,7 +5,7 @@
        <name>Nomad</name>
        <description>5e homebrew</description>
        <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-       <update version="0.0.6">
+       <update version="0.0.7">
            <file name="background-nomad.xml" url="https://raw.githubusercontent.com/Zancuno/Private-Unofficial-Aurora-53-Homebrew/master/private-unofficial/background-nomad.xml?token=AKXIHGOF244SZWQVNUN3UL27R2754" />
        </update>
     </info>
@@ -46,7 +46,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
             <select type="Proficiency" name="Musical Intrument (Entertainer)" supports="Musical Instrument" />
             <select type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_FAMILY_EVERYWHERE" />
-			<select type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_EXOTICISM />
+			<select type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_EXOTICISM" />
 
             <select type="List" name="Personality Trait">
                 <item id="1">I quickly pick up on local accents and begin imitating them almost immediately.</item>
